@@ -1,0 +1,25 @@
+.btn-google {
+    background-color: white;
+}
+.btn-google:hover {
+    background-color: lightgrey;
+}
+
+.px-6 {
+  padding-left: 9rem !important;
+  padding-right: 9rem !important;
+}
+
+.py-6 {
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
+}
+
+#messages-container {
+    position: fixed;
+    top: 10%;
+    left: 70%;
+    width: 30%;
+    z-index: 1000;
+}
+

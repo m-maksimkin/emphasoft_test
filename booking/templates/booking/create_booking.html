@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load crispy_forms_filters %}
+
+{% block content %}
+	<div class="py-6 px-6 container-lg">
+		<form method="post">
+			{% csrf_token %}
+			{{ form|crispy }}
+			<input type="submit" value="отправить" class="btn btn-outline-primary">
+		</form>
+	</div>
+{% endblock %}

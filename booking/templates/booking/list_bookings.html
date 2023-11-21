@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load crispy_forms_filters %}
+
+{% block content %}
+	<div class="py-6 px-6 container-lg">
+		<h1>Мои бронирования</h1>
+		<div class="row py-4">
+			{% for booking in bookings_list %}
+				<div class="col-md-4 d-flex flex-column align-items-center text-center">
+					<h4>{{ booking.room }}</h4>
+					<p>{{ booking.start_date }}-{{ booking.end_date }}</p>
+				<form action="{% url 'booking:delete_booking' booking.id %}" method="post">
+					{% csrf_token %}
+					<input type="submit" value="удалить" class="btn-outline-danger">
+				</form>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+{% endblock %}

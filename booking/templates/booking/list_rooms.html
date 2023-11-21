@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load crispy_forms_filters %}
+
+{% block content %}
+	<div class="py-6 px-6 container-lg">
+		<nav aria-label="Page navigation example">
+			<ul class="pagination">
+				<li class="page-item">
+					<a class="page-link" href="?page=1" aria-label="Previous">
+						<span aria-hidden="true">&laquo;</span>
+					</a>
+				</li>
+				{% if page_obj.has_previous %}
+				<li class="page-item"><a class="page-link" href="?page={{ page_obj.previous_page_number }}">{{ page_obj.previous_page_number }}</a></li>
+				{% endif %}
+				<li class="page-item active"><a class="page-link"  href="?page={{ page_obj.number }}">{{ page_obj.number }}</a></li>
+				{% if page_obj.has_next %}
+				<li class="page-item"><a class="page-link" href="?page={{ page_obj.next_page_number }}">{{ page_obj.next_page_number }}</a></li>
+				{% endif %}
+				<li class="page-item">
+					<a class="page-link" href="?page={{ page_obj.paginator.num_pages }}" aria-label="Next">
+						<span aria-hidden="true">&raquo;</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<form method="get" >
+			{{ sort_form|crispy }}
+			<input class="btn btn-light" type="submit" value="отсортировать">
+		</form>
+		<div class="row py-4">
+		{% for room in rooms_list %}
+			<div class="col-md-3 d-flex flex-column align-items-center">
+				{{ room.name }}<br>
+				{{ room.price }}<br>
+				{{ room.capacity }}<br>
+				<a class="btn-secondary" href="{% url 'booking:create_booking' room.id %}">забронировать</a>
+			</div>
+		{% endfor %}
+		</div>
+	</div>
+{% endblock %}
