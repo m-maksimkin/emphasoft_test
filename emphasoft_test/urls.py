@@ -5,5 +5,6 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('accounts.urls', namespace='accounts')),
+    path('api/accounts/', include('accounts.urls', namespace='accounts')),
+    path('api/booking/', include('booking.urls', namespace='booking')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

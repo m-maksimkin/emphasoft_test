@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a9c5c61-6782-4c22-82e2-3f76bbef829c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emphasoft_test/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/emphasoft_test/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emphasoft_test/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/emphasoft_test/urls.py" afterDir="false" />
     </list>
@@ -31,15 +32,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/motway/Desktop/file samples/emphasoft_test",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/motway/Desktop/file samples/emphasoft_test&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="emphasoft_test" type="Python.DjangoServer" factoryName="Django server">
       <module name="emphasoft_test" />
@@ -77,6 +78,8 @@
       <workItem from="1701178629538" duration="402000" />
       <workItem from="1701179038146" duration="809000" />
       <workItem from="1701294372755" duration="11259000" />
+      <workItem from="1701624358162" duration="4358000" />
+      <workItem from="1701633975438" duration="21006000" />
     </task>
     <servers />
   </component>
