@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a9c5c61-6782-4c22-82e2-3f76bbef829c" name="Changes" comment="">
+    <list default="true" id="5a9c5c61-6782-4c22-82e2-3f76bbef829c" name="Changes" comment="booking app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emphasoft_test/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/emphasoft_test/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emphasoft_test/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/emphasoft_test/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +78,16 @@
       <workItem from="1701179038146" duration="809000" />
       <workItem from="1701294372755" duration="11259000" />
       <workItem from="1701624358162" duration="4358000" />
-      <workItem from="1701633975438" duration="21006000" />
+      <workItem from="1701633975438" duration="22118000" />
     </task>
+    <task id="LOCAL-00001" summary="booking app">
+      <created>1701727805172</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701727805172</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,5 +103,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="booking app" />
+    <option name="LAST_COMMIT_MESSAGE" value="booking app" />
   </component>
 </project>

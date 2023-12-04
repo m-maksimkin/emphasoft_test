@@ -18,4 +18,3 @@ class SignUpView(generics.CreateAPIView):
             },
             status=status.HTTP_201_CREATED,
         )
-
